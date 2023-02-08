@@ -1,0 +1,267 @@
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family:inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+/*--------------------*/
+* {
+    font-family: Noah, sans-serif;
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: 700;
+}
+#james_west {
+    color: #FFD050;
+}
+#name_{
+    color: #592EA9    ; 
+}
+
+b{
+    font-weight: 800;
+}
+
+p {
+    font-size: 16px;
+    padding: 10px 0px 10px 0px;
+    font-weight: 400;
+    outline: none;
+}
+
+header {
+    width: 100%;
+    height: 80px;
+    background-color: #232536;
+}
+
+
+#logotip {
+    font-size: 30px;
+    color: #FFFFFF;
+    position: absolute;
+    left: 83px;
+    top: 25px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+#home {
+    font-size: 16px;
+    color: #FFFFFF;
+    position: absolute;
+    left: 58%;
+    top: 30px;
+}
+
+#blog {
+    font-size: 16px;
+    color: #FFFFFF;
+    position: absolute;
+    left: 62%;
+    top: 30px;
+}
+
+#about_us {
+    font-size: 16px;
+    color: #FFFFFF;
+    position: absolute;
+    left: 66%;
+    top: 30px;
+}
+
+#contact_us {
+    font-size: 16px;
+    color: #FFFFFF;
+    position: absolute;
+    left: 71%;
+    top: 30px;
+}
+
+#subscribe {
+    position: absolute;
+    left: 85%;
+    top: 10px;
+}
+
+#home_overlay {
+    width: 100%;
+    height: 720px;
+    background-image: url("../img/images-learnabout-machine-learning.c18db3323d34648dadefe11885afc106be4afd35.png");
+    
+    transform: scale(-1, 1);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+#home_info {
+    width:804px;
+    height:400px;
+    color: #FFFFFF;
+    transform: scale(-1, 1);
+    position: absolute; 
+    right: 80px;
+    bottom: 128px;
+}
+
+
+
+
+
+button {
+    width: 170px;
+    height: 56px;
+    font-weight: 600;
+    outline: none;
+    font-size: 18px;
+    letter-spacing: 0.5px;
+}
+
+#step {
+    font-size: 56px;
+    padding: 10px 0px 10px 0px;
+}
+
+
+
+#read {
+    margin: 50px 0px 0px 0px;
+    background-color: #FFD050;
+}
+
+
+
+#post {
+    letter-spacing: 2px;
+}
+
+#block_flex {
+
+    padding: 120px 80px 0px 80px;
+    width: 100%;
+    height: 1100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#featured_post {
+    width: 800px;
+    height: 1000px;
+}
+
+#post_wrapper {
+    border: 1px solid #d5d6df;
+    margin: 50px 0px 0px 0px;
+    padding: 40px;
+}
+#all_posts {
+    width: 800px;
+    height: 804px;
+}
+
+#photo_white_concrete_building {
+    width: 100%;
+    
+}
+
+#name_date {
+    margin: 40px 0px 0px 0px;
+    color: #4C4C4C;
+}
+
+#lorem {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+#lorem_ {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+#duis_aute{
+    color: #6D6E76;
+}
+
+#posts{
+    padding: 60px 80px 60px 40px;
+}
+
+#post_2 {
+    background-color: #fff4d5;
+}
+#About_us_our_mission {
+    width:100%;
+    height: 523px;
+    padding: 0 80px 0 80px; 
+    
+}
+#two_blocks_back {
+    margin: 40px 0 0 0 ;
+    display: flex;
+    justify-content:right;
+}
+
+#block_yelo {
+    background-color: #FFD050;
+    width: 60%;
+    height: 30px;
+}
+
+#block_vaolet {
+    background-color: #592EA9;
+    width: 20%;
+    height: 30px;
+    
+}
+
+#about_mission {
+    background-color: #e7dbf3;
+    display:flex;
+    padding: 60px;
+}
+
+#about_1 {
+    width: 1700px;
+    padding: 0 60px 0 0;
+}
+
+#us_our {
+    letter-spacing: 2px;
+    font-weight: 600;
+    color:#232536;
+    margin: 0 0 40px 0;
+}
