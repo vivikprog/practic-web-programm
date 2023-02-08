@@ -119,7 +119,7 @@ header {
 #home_overlay {
     width: 100%;
     height: 720px;
-    background-image: url("images-learnabout-machine-learning.c18db3323d34648dadefe11885afc106be4afd35.png");
+    
     
     transform: scale(-1, 1);
     background-repeat: no-repeat;
