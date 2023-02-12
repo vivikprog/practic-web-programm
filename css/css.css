@@ -72,8 +72,7 @@ header {
     font-size: 30px;
     color: #FFFFFF;
     position: absolute;
-    left: 83px;
-    top: 25px;
+    margin: 25px 0 0 60px;
     font-weight: 700;
     letter-spacing: 2px;
 }
@@ -82,32 +81,35 @@ header {
     font-size: 16px;
     color: #FFFFFF;
     position: absolute;
-    left: 58%;
-    top: 30px;
+    margin: 30px 0 0 58%;
 }
 
 #blog {
     font-size: 16px;
     color: #FFFFFF;
     position: absolute;
-    left: 62%;
-    top: 30px;
+    margin: 30px 0 0 62%;
 }
 
 #about_us {
     font-size: 16px;
     color: #FFFFFF;
     position: absolute;
-    left: 66%;
-    top: 30px;
+    margin: 30px 0 0 66%;
 }
 
 #contact_us {
     font-size: 16px;
     color: #FFFFFF;
     position: absolute;
-    left: 71%;
-    top: 30px;
+    margin: 30px 0 0 71%;
+}
+
+#privacy{
+    font-size: 16px;
+    color: #FFFFFF;
+    position: absolute;
+    margin: 30px 0 0 78%;
 }
 
 #subscribe {
@@ -162,7 +164,7 @@ button {
 
 
 #read {
-    margin: 50px 0px 0px 0px;
+
     background-color: #FFD050;
 }
 
@@ -268,6 +270,7 @@ button {
     font-weight: 600;
     color:#232536;
     margin: 0 0 40px 0;
+    font-size: 22px;
 }
 
 #choose_a_catagory {
@@ -318,4 +321,57 @@ button {
     position: absolute;
     top: 3300px;
     left: 700px
+}
+
+#heading{
+    border-right: 1px solid #b7b8bd;
+    padding: 0px 80px 0px 0px;
+}
+
+#testimonials {
+    background-color: #fff4d5;
+    padding: 100px;
+    display: flex;
+    margin: 600px 80px 0 80px;
+}
+
+#massages {
+    padding: 40px;
+}
+
+#jonathan {
+    margin: 80px 0 0 60px;
+}
+
+#join_team {
+    margin: 100px 0 0 0;
+    text-align: center;
+}
+
+footer{
+    height: 500px;
+    background-color: #232536;
+    padding: 40px;
+    margin: 80px 0 0 0;
+}
+
+#cta {
+    margin: 160px 0 0 0;
+    background-color: #555569;
+    display: flex;
+    justify-content: space-between;
+    padding: 60px;;
+}
+
+#space_of_email {
+    background-color: #555569;
+    border: 1px solid #86878b;
+    width: 300px;
+    height: 50px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+#nooow{
+    margin: 40px;
 }
