@@ -29,6 +29,7 @@
                     </li>
                 </ul>
             </nav>
+            
             <button class="header__button-subscribe button-subscribe">Subscribe</button>
         </header>
         <main class="main-space">
@@ -46,7 +47,7 @@
                     <div class="featured-post">
                         <h2 class="featured-post__title title">Featured post</h2>
                         <div class="item-featured-post">
-                            <img class="item-featured-post__icon" src="1643239271_81-phonoteka-org-p-neboskrebi-fon-86.jpg" alt="">
+                            <img class="item-featured-post__icon" src="../img/1643239271_81-phonoteka-org-p-neboskrebi-fon-86.jpg" alt="">
                             <p class="item-featured-post__some-text">By <span class="name-autor">John Doe</span> l May 23, 2022</p>
                             <h3 class="item-featured-post__subtitle subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</h3>
                             <p class="item-featured-post__text text">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.</p>
@@ -56,21 +57,25 @@
                     <div class="all-posts">
                         <h2 class="all-posts__title title">All posts</h2>
                         <div class="all-posts__row">
-                            <div class="post">
-                                <p class="item-all-posts__some-text">By <span class="name-autor">John Doe</span> l Aug 23, 2021</p>
-                                <h4 class="item-all-posts__subtitle subtitle">8 Figma design systems that you can download for free today.</h4>
+                            <div class="first-row">
+                                <div class="post">
+                                    <p class="item-all-posts__some-text">By <span class="name-autor">John Doe</span> l Aug 23, 2021</p>
+                                    <h4 class="item-all-posts__subtitle subtitle">8 Figma design systems that you can download for free today.</h4>
+                                </div>
+                                <div class="post post_active">
+                                    <p class="item-all-posts__some-text">By <span class="name-autor">John Doe</span> l Aug 23, 2021</p>
+                                    <h4 class="item-all-posts__subtitle subtitle">8 Figma design systems that you can download for free today.</h4>
+                                </div>
                             </div>
-                            <div class="post post_active">
-                                <p class="item-all-posts__some-text">By <span class="name-autor">John Doe</span> l Aug 23, 2021</p>
-                                <h4 class="item-all-posts__subtitle subtitle">8 Figma design systems that you can download for free today.</h4>
-                            </div>
-                            <div class="post">
-                                <p class="item-all-posts__some-text">By <span class="name-autor">John Doe</span> l Aug 23, 2021</p>
-                                <h4 class="item-all-posts__subtitle subtitle">8 Figma design systems that you can download for free today.</h4>
-                            </div>
-                            <div class="post">
-                                <p class="item-all-posts__some-text">By <span class="name-autor">John Doe</span> l Aug 23, 2021</p>
-                                <h4 class="item-all-posts__subtitle subtitle">8 Figma design systems that you can download for free today.</h4>
+                            <div class="second-row">
+                                <div class="post">
+                                    <p class="item-all-posts__some-text">By <span class="name-autor">John Doe</span> l Aug 23, 2021</p>
+                                    <h4 class="item-all-posts__subtitle subtitle">8 Figma design systems that you can download for free today.</h4>
+                                </div>
+                                <div class="post">
+                                    <p class="item-all-posts__some-text">By <span class="name-autor">John Doe</span> l Aug 23, 2021</p>
+                                    <h4 class="item-all-posts__subtitle subtitle">8 Figma design systems that you can download for free today.</h4>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -98,31 +103,38 @@
             </section>
             <section class="page-section categories">
                 <h2 class="page-section__title title">Choose A Catagory</h2>
-                <div class="grid">
-                    <article class="category-tale">
-                        <img class="category-tale__icon" src="free-icon-banking-6817107.png" alt="tale">
-                        <h3 class="category-tale__subtitle subtitle">Business</h3>
-                        <p class="category-tale__text text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
-                    </article>
-                    <article class="category-tale  category-tale_accent">
-                        <img class="category-tale__icon" src="free-icon-star-outline-with-black-smaller-star-inside-35484.png" alt="tale">
-                        <h3 class="category-tale__subtitle subtitle">Startup</h3>
-                        <p class="category-tale__text text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
-                    </article>
-                    <article class="category-tale">
-                        <img class="category-tale__icon" src="badge.png" alt="tale">
-                        <h3 class="category-tale__subtitle subtitle">Economy</h3>
-                        <p class="category-tale__text text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
-                    </article>
-                    <article class="category-tale">
-                        <img class="category-tale__icon" src="free-icon-is-less-than-or-equal-to-5169281.png" alt="tale">
-                        <h3 class="category-tale__subtitle subtitle">Technology</h3>
-                        <p class="category-tale__text text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
-                    </article>
-                </div>
+                    <div class="grid">
+                        <div class="grid__tale">
+                            <article class="category-tale ">
+                                <img class="category-tale__icon" src="../img/free-icon-banking-6817107.png" alt="tale">
+                                <h3 class="category-tale__subtitle subtitle">Business</h3>
+                                <p class="category-tale__text text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+                            </article>
+                            <article class="category-tale  category-tale_accent">
+                                <img class="category-tale__icon" src="../img/free-icon-star-outline-with-black-smaller-star-inside-35484.png" alt="tale">
+                                <h3 class="category-tale__subtitle subtitle">Startup</h3>
+                                <p class="category-tale__text text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+                            </article>
+                        </div>
+                        <div class="grid__tale">
+                            <article class="category-tale">
+                                <img class="category-tale__icon" src="../img/badge.png" alt="tale">
+                                <h3 class="category-tale__subtitle subtitle">Economy</h3>
+                                <p class="category-tale__text text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+                            </article>
+                            <article class="category-tale">
+                                <img class="category-tale__icon" src="../img/free-icon-is-less-than-or-equal-to-5169281.png" alt="tale">
+                                <h3 class="category-tale__subtitle subtitle">Technology</h3>
+                                <p class="category-tale__text text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+                            </article>
+                        </div>
+                    </div>
             </section>
             <section class="story">
-                <img class="image-travelers" src="i.webp" alt="">
+                <div class="block-image">
+                    <img class="image-travelers" src="../img/c1199e23218b0dd2231e278e9c413cc6.jpg" alt="">
+                </div>
+                
                 <div class="story-item">
                     <p class="story-item__heading heading">Why we started</p>
                     <h2 class="story-item__subtitle subtitle">It started out as a simple idea and evolved into our passion</h2>
@@ -134,22 +146,22 @@
                 <h2 class="list-autors__title title">List of Authors</h2>
                 <div class="list-autors__autors">
                     <article class="item-list__autor">
-                        <img class="image-autors" src="i (1).webp">
+                        <img class="image-autors" src="../img/i (1).webp">
                         <h3 class="name-autors subtitle">Floyd Miles</h3>
                         <p class="some-text">Content Writer @Company</p>
                     </article>
                     <article class="item-list__autor item-list__autor_accent">
-                        <img class="image-autors" src="i (1).webp">
+                        <img class="image-autors" src="../img/i (1).webp">
                         <h3 class="name-autors subtitle">Dianne Russell</h3>
                         <p class="some-text">Content Writer @Company</p>
                     </article>
                     <article class="item-list__autor">
-                        <img class="image-autors" src="i (1).webp">
+                        <img class="image-autors" src="../img/i (1).webp">
                         <h3 class="name-autors subtitle">Jenny Wilson</h3>
                         <p class="some-text">Content Writer @Company</p>
                     </article>
                     <article class="item-list__autor">
-                        <img class="image-autors" src="i (1).webp">
+                        <img class="image-autors" src="../img/i (1).webp">
                         <h3 class="name-autors subtitle">Leslie Alexander</h3>
                         <p class="some-text">Content Writer @Company</p>
                     </article>
@@ -164,16 +176,10 @@
                 <div class="place-reviews__line"></div>
                 <div class="place-reviews__reviews">
                     <h4 class="review subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h4>
-                    <div class="b">
-                        <div>
-                            <img class="autor-image" src="i (1).webp">
-                            <h4 class="info-autors__name-autor subtitle">Jonathan Vallem</h4>
-                            <p class="info-autors__country-autor text">New york, USA</p>
-                        </div>
-                        <div>
-                            <button class="flip-button flip-button_left">←</button>
-                            <button class="flip-button flip-button_rigth">→</button>
-                        </div>
+                    <div>
+                        <img class="autor-image" src="../img/i (1).webp">
+                        <h4 class="info-autors__name-autor text">Jonathan Vallem</h4>
+                        <p class="info-autors__country-autor text">New york, USA</p>
                     </div>
                 </div>
             </section>
