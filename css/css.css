@@ -1,4 +1,5 @@
 /* Основные параметры*/
+/* Основные параметры*/
 *{
 	padding: 0;
 	margin: 0;
@@ -117,7 +118,7 @@ header {
     
     
     .button{
-        width: 140px;
+        width: 120px;
         height: 30px;
         font-size: 12px;
     }
@@ -372,10 +373,11 @@ header {
 
 
 .story{
-    padding: 0px 100px 0px 100px ;
+    padding: 0px 100px;
+    height: 800px;
 }
 .story-item{
-    margin: 0px 0px 0px 50%;
+    margin: 100px 0px 0px 40%;
     padding: 100px;
     background-color: #ffffff;
 }
@@ -394,19 +396,18 @@ header {
     z-index: -1;
 }
 .image-travelers{
-    width: 70%;
-    height: 818px;
+    width: 80%;
+    height: 80%;
 }
-@media (max-width: 1400px) {
+@media (max-width: 1706px) {
     .story-item{
         padding: 50px;
     }
     .story-item__subtitle{
         font-size: 42px
     }
-    .image-travelers{
-        max-width: 70%;
-        max-height: 600px;
+    .story{
+        height: 600px; 
     }
 }
 
@@ -418,12 +419,19 @@ header {
 }
 .list-autors__autors{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.container-autors{
+    display: flex;
 }
 .list-autors__title{
     text-align: center;
     padding: 30px;
     
+}
+.item-list__autor{
+    margin: 30px;
 }
 .image-autors{
     width: 140px;
@@ -435,7 +443,7 @@ header {
 .item-list__autor{
     background-color: #F4F4F4;
     padding: 40px;
-    width: 22%;
+    width: 246px;
 }
 .name-autors,.some-text{
     text-align:center;
@@ -448,6 +456,7 @@ header {
         width: 120px;
         height:160px;
     }
+    
 }
 
 
@@ -525,9 +534,24 @@ header {
 .space-email{
     background-color: #555569;
     border: 1px solid #86878b;
-    width: 400px;
+    width: 30%;
     height: 50px;
     padding: 10px;
     font-size: 16px;
     color: white;
+}
+@media(max-width: 800px) {
+    .space-email{
+        font-size: 12px;
+        width: 80%;
+        margin: 20px 0px 20px 0px;
+    }
+    .space-subscribe{
+        flex-direction: column;
+        align-items: center;
+        padding: 40px 40px;
+    }
+    .space-subscribe__title{
+        width: 80%;
+    }
 }
