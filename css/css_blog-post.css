@@ -246,6 +246,9 @@ header {
 .other-post{
     padding:50px;
 }
+.other-posts__title{
+    margin: 0px 0px 0px 50px;
+}
 
 .space-joining{
     width: 50%;
