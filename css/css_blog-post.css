@@ -178,14 +178,12 @@ header {
 .blog-post{
     padding: 100px 400px;
     display: flex;
-    align-items: center;
     flex-direction: column;
 }
 .blog-post__autor,.blog-post__startup{
     display: flex;
     align-items: center;
     flex-direction: row;
-    margin: 20px 82% 20px 0px;
 }
 .image-autor,.image-startup{
     width:36px;
