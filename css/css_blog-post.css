@@ -184,6 +184,7 @@ header {
     display: flex;
     align-items: center;
     flex-direction: row;
+    margin: 20px 82% 20px 0px;
 }
 .image-autor,.image-startup{
     width:36px;
