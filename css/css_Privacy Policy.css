@@ -1,0 +1,230 @@
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+    font-family: Arial;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+.button:active{
+    background-color: #232536;
+    color:#FFD050;
+    border:3px solid #FFD050;
+}
+.button-subscribe:active{
+    background-color: #232536;
+    color:#ffffff;
+    border:3px solid #ffffff;
+}
+footer{
+    background-color: #232536;
+    width: 100%;
+    padding: 60px 100px 40px 100px;
+    margin: 80px 0px 0px 0px;
+}
+header { 
+    width: 100%;
+    height: 100px;
+    background-color: #232536; 
+    padding: 20px 50px 20px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+.button{
+    width: 250px;
+    height: 60px;
+    font-weight: 600;
+    font-size: 18px;
+    background-color: #FFD050;
+}
+
+.title{
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.5em;
+}
+.text{
+    color: #6D6E76;
+    font-size: 16px;
+    line-height: 24px;
+}
+.name-autor{
+    color: #592EA9;
+    font-weight: 600;
+}
+.heading{
+    letter-spacing: 2px;
+    font-weight: 500;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+.subtitle{
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 42px;
+}
+@media(max-width:1470px) {
+    .title{
+        font-size: 30px;
+    }
+    .text{
+        font-size: 14px;
+    }
+    .heading{
+        font-size: 14px;
+    }
+    .subtitle{
+        font-size: 20px;
+    }
+    
+    
+    .button{
+        width: 160px;
+        height: 40px;
+        font-size: 14px;
+    }
+}
+@media(max-width:1024px) {
+    .title{
+        font-size: 24px;
+    }
+    .text{
+        font-size: 12px;
+    }
+    .heading{
+        font-size: 12px;
+    }
+    .subtitle{
+        font-size: 16px;
+    }
+    
+    
+    .button{
+        width: 120px;
+        height: 30px;
+        font-size: 12px;
+    }
+}
+
+.header__logotip{
+    padding: 14px 0px 14px 80px; 
+}
+.logotip{
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 32px;
+}
+.page-navigation{
+    width: 50%;
+    margin: 20px 0px 20px 40%;
+}
+.page-navigation__list {
+    list-style-type: none; 
+    display: flex;
+    justify-content: space-around;
+}
+.page-navigation__link {
+    font-size: 20px;
+    color: #FFFFFF;
+    font-weight: 400;
+}
+.header__button-subscribe {
+    width: 150px;
+    height: 60px;
+    font-weight: 600;
+    font-size: 18px;
+}
+.special-offer_some_text{
+    margin: 20px 0px 20px 0px;
+}
+@media(max-width:1470px) {
+    .header__button-subscribe {
+        width: 110px;
+        height: 40px;
+        font-size: 14px;
+        margin: auto 0 10px 0;
+    }
+    .page-navigation__link {
+        font-size: 16px;
+    }
+    .special-offer__info{
+        font-size: 46px;
+    }
+}
+@media (max-width:900px) {
+    .page-navigation{
+        margin: 20px 0px 20px 0;
+    }
+}
+
+.privacy-policy{
+    background-color: #F4F0F8 ;
+    text-align: center;
+    padding: 100px 100px;
+}
+
+.info{
+    padding:100px;
+    width: 80%;
+    margin: 0px auto 0px;
+}
+.info__title, .info__text{
+    margin: 20px;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    min-width: 100%;
+}
+.space-subscribe__title{
+    color: white;
+    width: 40%;
+}
+.space-subscribe{
+    margin: 40px 0px 0px 0px; 
+    padding: 80px 60px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #3f4152;
+}
+.space-email{
+    background-color: #555569;
+    border: 1px solid #86878b;
+    width: 30%;
+    height: 50px;
+    padding: 10px;
+    font-size: 16px;
+    color: white;
+}
+@media(max-width: 800px) {
+    .space-email{
+        font-size: 12px;
+        width: 80%;
+        margin: 20px 0px 20px 0px;
+    }
+    .space-subscribe{
+        flex-direction: column;
+        align-items: center;
+        padding: 40px 40px;
+    }
+    .space-subscribe__title{
+        width: 80%;
+    }
+}
